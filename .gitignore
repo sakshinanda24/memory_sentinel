@@ -1,0 +1,25 @@
+# Userspace binaries
+sentinel
+sentinel-daemon
+
+# Kernel module build artifacts
+kernel/*.o
+kernel/*.ko
+kernel/*.mod
+kernel/*.mod.c
+kernel/*.mod.o
+kernel/.*.cmd
+kernel/Module.symvers
+kernel/modules.order
+kernel/.tmp_versions/
+
+# Generic build artifacts
+*.o
+*.a
+*.so
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*~
